@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-rag-automation
+  description: rag-automation.
+  annotations:
+    github.com/project-slug: Sathish-bayer/rag-automation
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:default/guest
+  lifecycle: experimental
